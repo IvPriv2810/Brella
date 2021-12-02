@@ -1,0 +1,73 @@
+.one {
+    position: relative;
+    
+    &__background {
+        position: absolute;
+        z-index: 0;
+    }
+
+    &__give {
+        width: 516px;
+        margin-top: 161px;
+    }
+
+    &__give h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 128%;
+        color: #214E41;
+    }
+
+    &__give p {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #214E41;
+        margin-top: 41px;
+    }
+
+    &__row {
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        margin-top: 129px;
+        box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+        border-radius: 6px;
+        padding: 50px 60px 50px 50px
+    }
+
+    &__row_items {
+        flex: 1 0 33.333%;
+        max-width: 33.333%;
+        display: flex;
+        padding: 0 15px;
+    }
+
+    &__row_items_text {
+        padding: 0 15px;
+    }
+
+    &__row_items_text h2 {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height:150%;
+        color: #214E41;
+        margin-bottom: 7px;
+    }
+
+    &__row_items_text p {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 143%;
+        color: #214E41;
+    }
+}

@@ -10,9 +10,9 @@
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    //padding: 0 15px;
 }
 
 html {
@@ -40,3 +40,4 @@ a {
 }
 
 @import 'components/header';
+@import 'components/sectione1';
