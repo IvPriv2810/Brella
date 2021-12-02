@@ -1,3 +1,45 @@
-// для каждого компонента нужно импортить переменные, чтобы их использовать
+//  импортить переменные, чтобы их использовать
 @import "../utils/parameters";
 @import "../utils/mixins";
+
+.header{
+
+    position: relative;
+    padding: 40px 0px;
+
+    &__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    &__row_logo {
+        flex-grow: 1;
+    }
+
+    .nav {
+        flex-grow: 2;
+    }
+
+    .nav ul{
+        display: flex;
+        text-decoration: none;
+        justify-content: space-around;
+    }
+
+    .nav li {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 143%;
+        color: #214E41;
+    }
+
+    &__row_button {
+        flex-grow: 1;
+        text-align: right;
+    }
+}
