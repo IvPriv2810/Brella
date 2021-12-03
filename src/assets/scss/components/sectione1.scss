@@ -1,6 +1,9 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
 .one {
     position: relative;
-    
+   
     &__background {
         position: absolute;
         z-index: 0;
@@ -38,7 +41,8 @@
         margin-top: 129px;
         box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
         border-radius: 6px;
-        padding: 50px 60px 50px 50px
+        padding: 50px 60px 50px 50px;
+        margin-bottom: 57px;
     }
 
     &__row_items {

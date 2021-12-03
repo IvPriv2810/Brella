@@ -1,0 +1,50 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.third {
+    position: relative;
+    padding-top: 120px;
+    background: #E3EEED;
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__row_items {
+        flex: 1 0 50%;
+        max-width: 50%;
+    }
+
+    h3 {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 154%;
+        letter-spacing: 0.05px;
+        text-transform: uppercase;
+        color: #43806C;
+    }
+
+    li {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 131%;
+        color: #43806C;
+    }
+
+    p {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.02px;
+        color: #214E41;
+    }
+}

@@ -1,0 +1,69 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.second {
+    position: relative;
+    padding-bottom: 120px;
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 176px;
+    }
+
+    &__row_items {
+        flex: 1 0 50%;
+        max-width: 50%;
+        padding: 0 70px;
+    }
+
+    h3 {
+        font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #43806C;
+    }
+
+    h2 {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 128%;
+    color: #214E41;
+    margin: 24px 0px 34px 0px;
+    }
+
+    p {
+        font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02px;
+    color: #757575;
+    margin-bottom: 26px;
+    }
+
+    a {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0.02px;
+        color: #214E41;
+    }
+
+    hr {
+        width: 80px;
+        height: 2px;
+        margin: 12px 5px;
+    }
+}
