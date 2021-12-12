@@ -3,15 +3,20 @@
 
 .one {
     position: relative;
+    
    
     &__background {
+    }
+
+    &__background img{
+        z-index: -1;
         position: absolute;
-        z-index: 0;
+        object-fit: cover;
     }
 
     &__give {
         width: 516px;
-        margin-top: 161px;
+        padding-top: 161px;
     }
 
     &__give h1 {
